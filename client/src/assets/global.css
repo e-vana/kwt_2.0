@@ -1,0 +1,76 @@
+body, html {
+  margin: 0px;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(58, 60, 170);
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.leftNav h1 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.rightNav {
+  display: flex;
+  justify-content: center;
+}
+
+.rightNav ul {
+  list-style-type: none;
+}
+.rightNav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.content-container {
+  width: 750px;
+  margin: 0 auto 100px auto;
+  box-sizing: border-box;
+}
+
+.content-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero p {
+  text-align: center;
+  font-style: italic;
+}
+
+@media all and (max-width: 750px){
+  .content-container {
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+  }
+
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"]{
+  margin: 0px 0px 40px 0px;
+  width: 100%;
+  padding: 10px;
+  box-sizing:border-box;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.479);
+
+}
